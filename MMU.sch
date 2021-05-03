@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:Atari 130XE-cache
+LIBS:Atari 130XE 1MB-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 14 15
+Sheet 14 16
 Title ""
 Date ""
 Rev ""
@@ -67,8 +67,6 @@ Wire Wire Line
 	1475 1750 1475 1875
 Wire Wire Line
 	1475 2175 1475 2275
-Text GLabel 4850 5750 0    50   Input ~ 0
-PB7
 Text GLabel 4850 5000 0    50   Input ~ 0
 RD4
 Text GLabel 4850 4850 0    50   Input ~ 0
@@ -81,8 +79,6 @@ Text GLabel 4850 4400 0    50   Input ~ 0
 REF
 Text GLabel 4850 4250 0    50   Input ~ 0
 PB0
-Text GLabel 6050 4250 2    50   Input ~ 0
-PB1
 Text GLabel 6050 4350 2    50   Input ~ 0
 OS
 Text GLabel 6050 4450 2    50   Input ~ 0
@@ -318,4 +314,8 @@ Text GLabel 5875 2450 2    50   Input ~ 0
 D4XX
 Text GLabel 5875 2750 2    50   Input ~ 0
 D7XX
+Text GLabel 6050 4250 2    50   Input ~ 0
+BE
+Text GLabel 4850 5750 0    50   Input ~ 0
+MAP
 $EndSCHEMATC

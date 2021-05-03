@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:Atari 130XE-cache
+LIBS:Atari 130XE 1MB-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 15
+Sheet 5 16
 Title ""
 Date ""
 Rev ""
@@ -421,39 +421,4 @@ Wire Wire Line
 Wire Wire Line
 	10900 3225 10900 2850
 Connection ~ 10275 3225
-Text GLabel 7950 4325 0    50   Input ~ 0
-CAS
-Text GLabel 7950 4425 0    50   Input ~ 0
-WRT
-Text GLabel 7950 4525 0    50   Input ~ 0
-RAS
-Text GLabel 7950 4025 0    50   Input ~ 0
-RW
-Text GLabel 7950 4125 0    50   Input ~ 0
-OSC
-Text GLabel 7950 3725 0    50   Input ~ 0
-O2
-Text GLabel 7950 4225 0    50   Input ~ 0
-CASINH
-Text GLabel 7950 3925 0    50   Input ~ 0
-EXTSEL
-Text GLabel 7950 3825 0    50   Input ~ 0
-REF
-Text GLabel 7950 4825 0    50   Input ~ 0
-GND
-$Comp
-L Connector_Generic:Conn_01x12 J200
-U 1 1 6047EC37
-P 8150 4225
-F 0 "J200" H 8230 4217 50  0000 L CNN
-F 1 "Diag" H 8230 4126 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x12_P2.54mm_Vertical" H 8150 4225 50  0001 C CNN
-F 3 "~" H 8150 4225 50  0001 C CNN
-	1    8150 4225
-	1    0    0    -1  
-$EndComp
-Text GLabel 7950 4625 0    50   Input ~ 0
-HALT
-Wire Wire Line
-	7950 4725 7950 4825
 $EndSCHEMATC
