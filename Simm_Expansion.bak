@@ -324,10 +324,6 @@ $EndComp
 Wire Wire Line
 	2475 5750 2475 5925
 Connection ~ 2475 5750
-Wire Wire Line
-	3200 2825 2575 2825
-Wire Wire Line
-	3200 2725 2475 2725
 $Comp
 L Device:R R97
 U 1 1 609171F5
@@ -351,17 +347,12 @@ F 3 "~" H 3400 5100 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	2475 2725 2475 5000
-Wire Wire Line
-	2575 2825 2575 5100
-Wire Wire Line
 	3250 5100 2575 5100
 Connection ~ 2575 5100
 Wire Wire Line
 	2575 5100 2575 5250
 Wire Wire Line
 	3250 5000 2475 5000
-Connection ~ 2475 5000
 Wire Wire Line
 	2475 5000 2475 5250
 $Comp
@@ -747,4 +738,13 @@ Wire Wire Line
 Connection ~ 8325 2875
 Wire Wire Line
 	8325 2875 8325 4400
+Wire Wire Line
+	2575 2725 3200 2725
+Wire Wire Line
+	2575 2725 2575 5100
+Wire Wire Line
+	2475 5000 2475 2825
+Wire Wire Line
+	2475 2825 3200 2825
+Connection ~ 2475 5000
 $EndSCHEMATC
