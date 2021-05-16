@@ -189,9 +189,9 @@ F 3 "" H 7475 4775 50  0001 C CNN
 	1    7475 4775
 	1    0    0    -1  
 $EndComp
-Text GLabel 4525 3100 0    50   Input ~ 0
-D7XX
 Text GLabel 5025 3300 2    50   Input ~ 0
+D7XX
+Text GLabel 4525 3100 0    50   Input ~ 0
 BO2
 Text GLabel 4525 2800 0    50   Input ~ 0
 CCTL

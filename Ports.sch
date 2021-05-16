@@ -80,7 +80,7 @@ U 1 1 602D4E49
 P 8175 2525
 F 0 "FB102" V 8000 2500 50  0000 C CNN
 F 1 "Ferrite_Bead" V 8350 2500 50  0000 C CNN
-F 2 "Atari:L_Axial_L7.0mm_D3.3mm_P12.50mm_Horizontal_Fastron_MICC" V 8105 2525 50  0001 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" V 8105 2525 50  0001 C CNN
 F 3 "~" H 8175 2525 50  0001 C CNN
 	1    8175 2525
 	0    1    1    0   
@@ -94,7 +94,7 @@ U 1 1 602D5898
 P 8625 2850
 F 0 "C102" H 8740 2896 50  0000 L CNN
 F 1 "1nF" H 8740 2805 50  0000 L CNN
-F 2 "Atari:C_Axial_L5.1mm_D2.5mm_P12.50mm_Horizontal" H 8663 2700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 8663 2700 50  0001 C CNN
 F 3 "~" H 8625 2850 50  0001 C CNN
 	1    8625 2850
 	1    0    0    -1  
@@ -123,7 +123,7 @@ U 1 1 602D6C5C
 P 7050 2325
 F 0 "FB12" H 7275 2175 50  0000 R CNN
 F 1 "Ferrite_Bead" V 6875 2225 50  0000 R CNN
-F 2 "Atari:L_Axial_L7.0mm_D3.3mm_P12.50mm_Horizontal_Fastron_MICC" V 6980 2325 50  0001 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" V 6980 2325 50  0001 C CNN
 F 3 "~" H 7050 2325 50  0001 C CNN
 	1    7050 2325
 	-1   0    0    1   
@@ -332,7 +332,7 @@ U 1 1 602F3A65
 P 7550 2525
 F 0 "L25" V 7369 2525 50  0000 C CNN
 F 1 "10uH" V 7460 2525 50  0000 C CNN
-F 2 "Atari:L_Axial_L7.0mm_D3.3mm_P12.50mm_Horizontal_Fastron_MICC" H 7550 2525 50  0001 C CNN
+F 2 "Inductor_SMD:L_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 7550 2525 50  0001 C CNN
 F 3 "~" H 7550 2525 50  0001 C CNN
 	1    7550 2525
 	0    1    1    0   
