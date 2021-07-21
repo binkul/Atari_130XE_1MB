@@ -144,28 +144,16 @@ F 3 "http://www.ti.com/lit/gpn/sn74LS157" H 4150 3875 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 3575 5800 3575
-Wire Wire Line
-	5800 3575 5800 4275
-Wire Wire Line
 	5800 4275 6725 4275
 Wire Wire Line
-	4650 3875 5575 3875
-Wire Wire Line
-	5575 3875 5575 4375
-Wire Wire Line
 	5575 4375 6725 4375
-Wire Wire Line
-	4650 4175 5375 4175
-Wire Wire Line
-	5375 4175 5375 4475
 Wire Wire Line
 	5375 4475 6725 4475
 Text GLabel 3650 3575 0    50   Input ~ 0
 PB2
-Text GLabel 3650 3875 0    50   Input ~ 0
+Text GLabel 3650 3275 0    50   Input ~ 0
 PB3
-Text GLabel 3650 4175 0    50   Input ~ 0
+Text GLabel 3650 3875 0    50   Input ~ 0
 A16
 $Comp
 L power:+5VA #PWR0278
@@ -192,15 +180,10 @@ $EndComp
 Wire Wire Line
 	4150 4875 4150 4950
 Wire Wire Line
-	3350 3275 3350 3375
-Wire Wire Line
 	3350 4875 4150 4875
 Connection ~ 4150 4875
 Wire Wire Line
-	3350 3275 3650 3275
-Wire Wire Line
 	3650 3375 3350 3375
-Connection ~ 3350 3375
 Wire Wire Line
 	3350 3375 3350 3675
 Wire Wire Line
@@ -212,7 +195,7 @@ Wire Wire Line
 	3650 3975 3350 3975
 Connection ~ 3350 3975
 Wire Wire Line
-	3350 3975 3350 4275
+	3350 3975 3350 4175
 Wire Wire Line
 	3650 4275 3350 4275
 Connection ~ 3350 4275
@@ -359,8 +342,6 @@ F 3 "" H 1425 3150 50  0001 C CNN
 	1    1425 3150
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1425 3150 1425 3325
 $Comp
 L Diode:1N4148 D101
 U 1 1 60B83A0F
@@ -455,10 +436,69 @@ Wire Wire Line
 	1275 5375 1425 5375
 Connection ~ 1425 5375
 Wire Wire Line
+	5800 4275 5800 3575
+Wire Wire Line
+	5800 3575 4650 3575
+Wire Wire Line
+	5575 3275 4650 3275
+Wire Wire Line
+	5575 3275 5575 4375
+Wire Wire Line
+	5375 3875 4650 3875
+Wire Wire Line
+	5375 3875 5375 4475
+Wire Wire Line
+	3650 4175 3350 4175
+Connection ~ 3350 4175
+Wire Wire Line
+	3350 4175 3350 4275
+Wire Wire Line
+	6725 4875 6725 4975
+Text GLabel 6500 4975 0    50   Input ~ 0
+OS
+Wire Wire Line
+	6500 4975 6725 4975
+Connection ~ 6725 4975
+Wire Wire Line
 	1275 4125 1275 3325
 Wire Wire Line
-	1275 3325 1425 3325
+	1425 3325 1425 3400
+Wire Wire Line
+	1425 3150 1425 3325
 Connection ~ 1425 3325
 Wire Wire Line
-	1425 3325 1425 3400
+	1275 3325 1425 3325
+$Comp
+L Device:C C99
+U 1 1 60E536F2
+P 4150 5825
+F 0 "C99" H 4265 5871 50  0000 L CNN
+F 1 "100nF" H 4265 5780 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric_Pad1.42x1.75mm_HandSolder" H 4188 5675 50  0001 C CNN
+F 3 "~" H 4150 5825 50  0001 C CNN
+	1    4150 5825
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60E543DB
+P 4150 5975
+F 0 "#PWR?" H 4150 5725 50  0001 C CNN
+F 1 "GND" H 4155 5802 50  0000 C CNN
+F 2 "" H 4150 5975 50  0001 C CNN
+F 3 "" H 4150 5975 50  0001 C CNN
+	1    4150 5975
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR?
+U 1 1 60E5470B
+P 4150 5675
+F 0 "#PWR?" H 4150 5525 50  0001 C CNN
+F 1 "+5VA" H 4165 5848 50  0000 C CNN
+F 2 "" H 4150 5675 50  0001 C CNN
+F 3 "" H 4150 5675 50  0001 C CNN
+	1    4150 5675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

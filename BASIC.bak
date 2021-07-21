@@ -199,13 +199,6 @@ F 3 "" H 6950 4950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6950 4825 6950 4950
-Wire Wire Line
-	7300 3600 7075 3600
-Wire Wire Line
-	7075 3600 7075 2825
-Wire Wire Line
-	7075 2825 7800 2825
-Connection ~ 7800 2825
 $Comp
 L Device:R R506
 U 1 1 60AEFCB9
@@ -873,4 +866,11 @@ Wire Wire Line
 	10750 1850 10750 1950
 Connection ~ 10750 1850
 Connection ~ 10750 1950
+Wire Wire Line
+	7025 3600 7025 4500
+Wire Wire Line
+	7025 4500 7300 4500
+Wire Wire Line
+	7025 3600 7300 3600
+Connection ~ 7300 4500
 $EndSCHEMATC

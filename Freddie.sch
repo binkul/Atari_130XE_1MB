@@ -421,4 +421,62 @@ Wire Wire Line
 Wire Wire Line
 	10900 3225 10900 2850
 Connection ~ 10275 3225
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J50
+U 1 1 60E3B546
+P 2525 4350
+F 0 "J50" H 2575 4767 50  0000 C CNN
+F 1 "Test_signal" H 2575 4676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2525 4350 50  0001 C CNN
+F 3 "~" H 2525 4350 50  0001 C CNN
+	1    2525 4350
+	1    0    0    -1  
+$EndComp
+Text GLabel 2825 4550 2    50   Input ~ 0
+REF
+Text GLabel 2825 4450 2    50   Input ~ 0
+O2
+Text GLabel 2825 4350 2    50   Input ~ 0
+RW
+Text GLabel 2825 4250 2    50   Input ~ 0
+OSC
+Text GLabel 2825 4150 2    50   Input ~ 0
+CASINH
+Text GLabel 2325 4150 0    50   Input ~ 0
+WRT
+Text GLabel 2325 4250 0    50   Input ~ 0
+RAS
+Text GLabel 2325 4350 0    50   Input ~ 0
+CAS
+Text GLabel 2325 4450 0    50   Input ~ 0
+FA15
+Text GLabel 2325 4550 0    50   Input ~ 0
+FA14
+$Comp
+L Connector_Generic:Conn_01x02 J51
+U 1 1 60E51996
+P 3800 4325
+F 0 "J51" H 3880 4317 50  0000 L CNN
+F 1 "To_GND" H 3880 4226 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3800 4325 50  0001 C CNN
+F 3 "~" H 3800 4325 50  0001 C CNN
+	1    3800 4325
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4325 3600 4425
+$Comp
+L power:GND #PWR0298
+U 1 1 60E5426E
+P 3600 4575
+F 0 "#PWR0298" H 3600 4325 50  0001 C CNN
+F 1 "GND" H 3605 4402 50  0000 C CNN
+F 2 "" H 3600 4575 50  0001 C CNN
+F 3 "" H 3600 4575 50  0001 C CNN
+	1    3600 4575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 4425 3600 4575
+Connection ~ 3600 4425
 $EndSCHEMATC

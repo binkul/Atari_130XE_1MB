@@ -328,4 +328,158 @@ Wire Wire Line
 Connection ~ 7125 4825
 Wire Wire Line
 	7125 4825 5675 4825
+$Comp
+L Device:R R100
+U 1 1 60D91D41
+P 2925 3775
+F 0 "R100" V 2925 3775 50  0000 C CNN
+F 1 "10k" V 2875 3600 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 3775 50  0001 C CNN
+F 3 "~" H 2925 3775 50  0001 C CNN
+	1    2925 3775
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 3775 2    50   Input ~ 0
+DQ4
+$Comp
+L power:+5VA #PWR0286
+U 1 1 60D9284E
+P 2425 3500
+F 0 "#PWR0286" H 2425 3350 50  0001 C CNN
+F 1 "+5VA" H 2440 3673 50  0000 C CNN
+F 2 "" H 2425 3500 50  0001 C CNN
+F 3 "" H 2425 3500 50  0001 C CNN
+	1    2425 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2775 3775 2425 3775
+Wire Wire Line
+	2425 3775 2425 3500
+$Comp
+L Device:R R101
+U 1 1 60D9A894
+P 2925 3900
+F 0 "R101" V 2925 3900 50  0000 C CNN
+F 1 "10k" V 2875 3725 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 3900 50  0001 C CNN
+F 3 "~" H 2925 3900 50  0001 C CNN
+	1    2925 3900
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 3900 2    50   Input ~ 0
+DQ5
+Wire Wire Line
+	2775 3900 2425 3900
+Wire Wire Line
+	2425 3900 2425 3775
+Connection ~ 2425 3775
+$Comp
+L Device:R R102
+U 1 1 60D9DE57
+P 2925 4025
+F 0 "R102" V 2925 4025 50  0000 C CNN
+F 1 "10k" V 2875 3850 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 4025 50  0001 C CNN
+F 3 "~" H 2925 4025 50  0001 C CNN
+	1    2925 4025
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 4025 2    50   Input ~ 0
+DQ3
+Wire Wire Line
+	2775 4025 2425 4025
+Wire Wire Line
+	2425 4025 2425 3900
+Connection ~ 2425 3900
+$Comp
+L Device:R R103
+U 1 1 60D8E68E
+P 2925 4150
+F 0 "R103" V 2925 4150 50  0000 C CNN
+F 1 "10k" V 2875 3975 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 4150 50  0001 C CNN
+F 3 "~" H 2925 4150 50  0001 C CNN
+	1    2925 4150
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 4150 2    50   Input ~ 0
+DQ1
+Wire Wire Line
+	2775 4150 2425 4150
+Wire Wire Line
+	2425 4150 2425 4025
+Connection ~ 2425 4025
+$Comp
+L Device:R R104
+U 1 1 60D8F264
+P 2925 4275
+F 0 "R104" V 2925 4275 50  0000 C CNN
+F 1 "10k" V 2875 4100 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 4275 50  0001 C CNN
+F 3 "~" H 2925 4275 50  0001 C CNN
+	1    2925 4275
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 4275 2    50   Input ~ 0
+DQ2
+Wire Wire Line
+	2425 4150 2425 4275
+Wire Wire Line
+	2425 4275 2775 4275
+Connection ~ 2425 4150
+$Comp
+L Device:R R105
+U 1 1 60D9380E
+P 2925 4400
+F 0 "R105" V 2925 4400 50  0000 C CNN
+F 1 "10k" V 2875 4225 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 4400 50  0001 C CNN
+F 3 "~" H 2925 4400 50  0001 C CNN
+	1    2925 4400
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 4400 2    50   Input ~ 0
+DQ0
+Wire Wire Line
+	2425 4275 2425 4400
+Wire Wire Line
+	2425 4400 2775 4400
+Connection ~ 2425 4275
+$Comp
+L Device:R R106
+U 1 1 60D96A99
+P 2925 4525
+F 0 "R106" V 2925 4525 50  0000 C CNN
+F 1 "10k" V 2875 4350 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 4525 50  0001 C CNN
+F 3 "~" H 2925 4525 50  0001 C CNN
+	1    2925 4525
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 4525 2    50   Input ~ 0
+DQ6
+$Comp
+L Device:R R107
+U 1 1 60D96E46
+P 2925 4650
+F 0 "R107" V 2925 4650 50  0000 C CNN
+F 1 "10k" V 2875 4475 50  0000 C CNN
+F 2 "Atari:R_Axial_DIN0207_L3.6mm_D2.2mm_P10.16mm_Horizontal" V 2855 4650 50  0001 C CNN
+F 3 "~" H 2925 4650 50  0001 C CNN
+	1    2925 4650
+	0    1    1    0   
+$EndComp
+Text GLabel 3075 4650 2    50   Input ~ 0
+DQ7
+Wire Wire Line
+	2775 4525 2425 4525
+Wire Wire Line
+	2425 4525 2425 4400
+Connection ~ 2425 4400
+Wire Wire Line
+	2775 4650 2425 4650
+Wire Wire Line
+	2425 4650 2425 4525
+Connection ~ 2425 4525
 $EndSCHEMATC
