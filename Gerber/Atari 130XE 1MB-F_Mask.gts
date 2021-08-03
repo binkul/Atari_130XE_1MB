@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(5.1.0)-1*
-G04 #@! TF.CreationDate,2021-07-17T22:51:43+02:00*
+G04 #@! TF.CreationDate,2021-08-03T21:10:52+02:00*
 G04 #@! TF.ProjectId,Atari 130XE 1MB,41746172-6920-4313-9330-584520314d42,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (5.1.0)-1) date 2021-07-17 22:51:43*
+G04 Created by KiCad (PCBNEW (5.1.0)-1) date 2021-08-03 21:10:52*
 %MOMM*%
 %LPD*%
 G04 APERTURE LIST*
